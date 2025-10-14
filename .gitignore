@@ -1,0 +1,28 @@
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# System
+.DS_Store
+Thumbs.db
+
+# Kompilacja i binaria
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.lib
+*.obj
+
+# Zależności
+node_modules/
+packages/
+*.log
+
+# Ustawienia użytkownika
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
