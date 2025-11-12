@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa – Układanka</title>
+
+  <link rel="stylesheet" href="leaflet-1.7.1/leaflet.css" />
+  <script src="leaflet-1.7.1/leaflet-src.js"></script>
+  <script src="leaflet-1.7.1/leaflet-providers.js"></script>
+  <script src="leaflet-1.7.1/leaflet-image.js"></script>
+
+  <link rel="stylesheet" href="style_puzzle.css" />
+</head>
+<body>
+  <button id="getLocation">Pobierz lokalizację</button>
+  <div id="positionInfo">
+  </div>
+
+  <div id="workspace">
+    <div id="mapSection">
+      <div id="map"></div>
+      <button id="saveButton">Zapisz raster mapy</button>
+      <canvas id="rasterMap"></canvas>
+    </div>
+
+    <div id="puzzleSection">
+      <h3>Puzzle</h3>
+      <div id="puzzleContainer"></div>
+
+      <h3>Plansza</h3>
+      <div id="solver" class="solver">
+        <div class="solver-slot"></div><div class="solver-slot"></div><div class="solver-slot"></div><div class="solver-slot"></div>
+        <div class="solver-slot"></div><div class="solver-slot"></div><div class="solver-slot"></div><div class="solver-slot"></div>
+        <div class="solver-slot"></div><div class="solver-slot"></div><div class="solver-slot"></div><div class="solver-slot"></div>
+        <div class="solver-slot"></div><div class="solver-slot"></div><div class="solver-slot"></div><div class="solver-slot"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script_puzzle.js"></script>
+</body>
+</html>
