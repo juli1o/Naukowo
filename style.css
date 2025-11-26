@@ -1,0 +1,64 @@
+body{
+    background-image: url("clouds.png");
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+}
+
+.block{
+    text-align: center;
+}
+
+
+.block h1{
+    margin-bottom: 20px;
+}
+
+.weather-input{
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid black;    
+}
+
+.weather-button{
+    padding: 10px;
+    font-size: 1rem;
+}
+.content{
+    display: flex;            
+    flex-direction: column;   
+    justify-content: center;  
+    align-items: center;      
+    gap: 6px;
+    
+    background-color: rgba(204, 211, 212, 0.8); 
+    border-radius: 10px;
+    width: 350px;
+    padding: 15px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.icon{
+    width: 90px;
+    height: 90px;
+}
+
+.date{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.temperature{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.temp-feel{
+    font-size: 16px;
+}
+
+.description{
+    font-size: 14px;
+    font-style: italic;
+}
