@@ -1,0 +1,117 @@
+body {
+    background-image: url("kawiarnia.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #2f1e1e;
+    font-family: "Trebuchet MS", sans-serif;
+    line-height: 1.6;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 15px;
+   
+}
+
+header ul li a {
+    color: #5a2d0c;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin-bottom: 10px;
+    color: #5a2d0c;
+    
+}
+
+header h2 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+header h3 {
+    margin-top: 40px;
+    font-size: 1.6rem;
+}
+
+.products {
+    margin: 80px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+}
+
+.products h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    color: #5a2d0c;
+}
+
+.products > div {
+    background: rgba(90, 45, 12, 0.08);
+    border-left: 8px solid #5a2d0c;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.products h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.about-sec {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 60px;
+    background: rgba(90, 45, 12, 0.85);
+    color: wheat;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.about-sec h2 {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+}
+
+.footer-sec {
+    max-width: 900px;
+    margin: 80px auto 40px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #d7a49c;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.footer-sec ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-sec ul li {
+    margin: 12px 0;
+    font-size: 1.2rem;
+}
